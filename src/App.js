@@ -8,24 +8,28 @@ function App() {
       views: "12.5k",
       time: "1 month ago",
       channel: "Shayan codes",
+      verified: false
     },
     {
       title: "React JS",
       views: "100.5k",
       time: "1 year ago",
-      channel: "Shayan codes",
+      channel: "Joshuwa Bardwell",
+      verified: true
     },
     {
       title: "VUE JS",
       views: "19.5k",
       time: "6 month ago",
-      channel: "Shayan codes",
+      channel: "Coder gyaan",
+      verified: false
     },
     {
       title: "Express JS",
       views: "67k",
       time: "3 month ago",
-      channel: "Shayan codes",
+      channel: "BB ki vines",
+      verified: true
     },
   ];
 
