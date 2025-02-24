@@ -1,6 +1,6 @@
 import "./Video.css";
 
-function Video({ id, title, channel = "shayan codes", views, time, verified }) {
+function Video({ id, title, channel = "shayan codes", views, time, verified, children }) {
   //passing the default value inside the channel prop, so incase we forget to pass channel while calling the Video component, it will automatically filled by this default value. When we pass the prop with other value, the default value gets overwritten
 
   return (
@@ -24,6 +24,7 @@ function Video({ id, title, channel = "shayan codes", views, time, verified }) {
         <div className="views">
           {views} <span>.</span> {time}
         </div>
+        <div>{children}</div>
       </div>
     </>
   );
